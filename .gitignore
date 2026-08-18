@@ -1,0 +1,75 @@
+_wip/
+.aider*
+.git/
+
+
+# Dipendenze installabili
+node_modules/
+
+# Build e copie runtime generate
+bin/
+bin-neutralino-nonwindows/
+dist-neutralino/
+dist-msix/
+app.bundle.js
+costruisci-tabella-dimensioni.bat
+
+# Risultati test, cache e coverage
+
+test-results/
+playwright-report/
+coverage/
+.vite/
+.vite-temp/
+**/.last-run.json
+
+# Cartelle di lavoro locali e backup
+
+scratch/
+tmp/
+_wip/
+
+# Configurazioni locali degli agenti
+
+.claude/
+.codex/
+
+# Documenti di prova locali
+
+# Inventari e file generati localmente
+
+dirs.txt
+
+# Log e file temporanei
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swo
+*.zip
+~$*
+
+# Progetti e recovery generati dall'app
+
+*.vcp
+*.vcp.*
+
+# Variabili, chiavi e certificati locali
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# File di sistema
+
+.DS_Store
+Thumbs.db
+desktop.ini
+examples/pdf/grande.pdf
